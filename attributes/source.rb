@@ -38,5 +38,6 @@ default['nginx']['source']['checksum'] = '1045ac4987a396e2fa5d0011daf8987b612dd2
 default['nginx']['source']['modules']  = %w(
   nginx::http_ssl_module
   nginx::http_gzip_static_module
+  nginx::ngx_lua_modul
 )
 default['nginx']['source']['use_existing_user'] = false
